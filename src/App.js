@@ -7,7 +7,7 @@ import EmployeeForm from './Component/EmployeeForm';
 
 function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename="/assignment-7">
    <Routes>
     <Route path="/" exact element={
     <Dashboard/>
