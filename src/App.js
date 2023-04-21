@@ -9,12 +9,12 @@ function App() {
   return (
    <BrowserRouter basename="/assignment-7">
    <Routes>
-    <Route path="/" exact element={
+    <Route path="/" element={
     <Dashboard/>
     }/>
-    <Route path="/form" exact element={<EmployeeForm/>}/>
+    <Route path="/form" element={<EmployeeForm/>}/>
    </Routes>
-   </BrowserRouter>
+</BrowserRouter>
   );
 }
 
